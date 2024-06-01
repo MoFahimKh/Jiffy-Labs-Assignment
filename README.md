@@ -18,8 +18,8 @@ This initial implementation focuses on delivering the core functionalities as pe
 
 **Future Improvements:**
 
-* **Responsiveness:** The application will be enhanced to adapt its layout and components seamlessly across various screen sizes (desktops, tablets, mobiles) for a wider audience.
-**Installation and Setup:**
+**Responsiveness:** The application will be enhanced to adapt its layout and components seamlessly across various screen sizes (desktops, tablets, mobiles) for a wider audience.
+### Installation and Setup
 
 1. **Prerequisites:** Ensure you have Node.js (LTS or later) and npm (or yarn) installed on your system.
 2. **Clone Repository:** Clone this repository using Git:
@@ -48,18 +48,6 @@ The application currently presents UI components as per the Figma design. Functi
 
 Unit tests and end-to-end tests will be implemented in future development phases to ensure code quality and maintainability.
 
-### Contribution Guidelines
-
-If you're contributing to this project, please adhere to the following guidelines:
-
-* Create a new branch for your feature or bug fix.
-* Write clear and concise commit messages.
-* Follow the existing coding style and conventions.
-* Submit a pull request for review before merging your changes.
-
-### License
-
-This project is licensed under the MIT License (see LICENSE file for details).
 
 ### Credits
 
