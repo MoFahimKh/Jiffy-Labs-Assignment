@@ -10,6 +10,7 @@ import {
   BADGE_LIST_CARD_3,
   BADGE_LIST_CARD_4,
 } from "../../utils/constants";
+import styles from "../completedHackathons/style.module.scss";
 
 export const InReviewHackathons = ({
   selectedFilters,
@@ -64,6 +65,11 @@ export const InReviewHackathons = ({
           />
         )}
       </div>
+      {selectedFilters.length === 0 && (
+        <div className={styles["no-card-selected"]}>
+          Please select atleast one hackathon type
+        </div>
+      )}
     </div>
   );
 };

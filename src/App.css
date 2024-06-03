@@ -15,11 +15,12 @@
 
 .content {
   display: flex;
-  justify-content: center;
+  margin-left: 10%;
 }
 .middle-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid #ebebeb;
+  padding-right: 30px;
 }

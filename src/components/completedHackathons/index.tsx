@@ -10,6 +10,7 @@ import {
   BADGE_LIST_CARD_3,
   BADGE_LIST_CARD_4,
 } from "../../utils/constants";
+import styles from "./style.module.scss";
 
 export const CompletedHackathons = ({
   selectedFilters,
@@ -63,6 +64,11 @@ export const CompletedHackathons = ({
           rank="3rd"
           badgeList={BADGE_LIST_CARD_4}
         />
+      )}
+      {selectedFilters.length === 0 && (
+        <div className={styles["no-card-selected"]}>
+          Please select atleast one hackathon type
+        </div>
       )}
     </div>
   );

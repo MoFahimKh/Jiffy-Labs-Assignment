@@ -73,14 +73,15 @@ export const TabBar = ({
                 type="checkbox"
                 name={filter}
                 checked={selectedFilters.includes(filter)}
-                onChange={() =>
+                onChange={() => {
                   handleCheckboxChange(
                     filter,
                     FILTERS,
                     selectedFilters,
                     setSelectedFilters
-                  )
-                }
+                  );
+                  setIsOpen(false);
+                }}
               />
               <div>{filter}</div>
             </div>

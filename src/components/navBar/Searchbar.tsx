@@ -29,7 +29,7 @@ export const SearchBar = () => {
         className={styles["search-input"]}
         type="text"
         placeholder="Search an userOp"
-        value={displayValue}
+        value={isFocused ? inputValue : displayValue}
         onChange={handleChange}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
